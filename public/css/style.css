@@ -1,0 +1,199 @@
+/* <<<<<<<<<< body_parts <<<<<<<<<< */
+body{ 
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #12123c !important;
+  color: rgb(255, 0, 217) !important;
+}
+.container{
+    flex: 1;
+}
+
+/* ========== navbar ========== */
+.navbar{
+    height: 5rem;
+    background-color: #12123c !important;
+}
+.fa-compass{
+    font-size: 2rem;
+}
+
+/* :::::::::: comman_style :::::::::: */
+.search-input, .btn-search, .nav-link, .listing-card, .add-btn, .comment-box, .show-page, .show-btn, .com-btn, .del-btn, .edit-btn, .login-btn, .signup-btn{
+    background-color: #12123c !important;
+    border: 2px solid aqua !important;
+    color: rgb(255, 0, 217) !important;
+}
+.navbar-nav{
+    background-color: #12123c !important;
+}
+::placeholder{
+    color: rgb(255, 0, 217) !important;
+} 
+.btn-search{
+    border-radius: 5px;
+    padding: 0 1rem 0 rem;
+}
+.btn-search i{
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+/* ########## comman_hover ########## */
+.btn-search:hover, .nav-link:hover, .filter:hover, .text-toggle:hover, .listing-card:hover, .new:hover, .add-btn:hover, .show-page:hover, .show-btn:hover, .com-btn:hover, .com-btn:hover, .del-btn:hover, .comment-box:hover, .edit:hover, .edit-btn:hover, .login-btn:hover, .login:hover, .signup-btn:hover, .signup:hover{
+    background-color: rgb(21, 9, 243) !important;
+    box-shadow: 0px 0px 15px 10px rgb(77, 82, 139);
+    font-weight: bold !important;
+}
+.nav-link{
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.fa-compass{
+    color: rgb(255, 0, 217) !important;
+}
+
+/* ********** filters ********** */
+#filters{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #12123c;
+    color: rgb(255, 0, 217);
+}
+.filter{
+    text-align: center;
+    margin:15px 5px 15px 5px;
+    padding: 5px;
+    opacity: 0.9;
+    border: 2px solid aqua;
+    border-radius: 4px;
+}
+.filter p{
+    font-size: 1rem;
+}
+.tax-info{
+    display: none;
+}
+.text-toggle{
+    border: 2px solid aqua;
+    border-radius: 4px;
+    height: 3.5rem;
+    padding: 5px;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.form-check-input{
+    background-color: rgb(255, 0, 217) !important;
+}
+
+   /* ---------- cards ---------- */
+.listing-card{
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+    padding-left: 5px !important;
+}
+.card-text p{
+    font-weight: 400 !important;
+}
+.listing_link{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 1;
+}
+
+/* >>>>>>>>>> footer >>>>>>>>>> */
+.f-info-links{
+    text-decoration: none;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info{
+    text-align: center;
+    display: flex;
+    height: 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    padding-top: 25px;
+}
+.f-info-socials, .f-info-links, .f-info-brand{
+    width: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-socials {
+    padding-bottom: 25px;
+}
+.f-info-socials i{
+    margin-right: 1rem;
+    border:2px solid aqua;
+    padding: 5px;
+    font-size: 2rem;
+    border-radius: 4px;
+}
+.f-info-socials i:hover{
+    background-color: rgb(21, 9, 243) !important;
+    box-shadow: 0px 0px 15px 10px rgb(77, 82, 139);
+    font-weight: bold;
+}
+
+/* |||||||||| new_page |||||||||| */
+.form-control{
+    background-color: #12123c !important;
+    color: rgb(255, 0, 217) !important;
+}
+input{
+    background-color: #12123c !important;
+}
+
+/* ^^^^^^^^^^ show_page ^^^^^^^^^^ */
+.show{
+    align-items: center !important;
+    justify-content: center !important;
+}
+.show-img{
+    height: 30vh;
+}
+.btns{
+    display: flex;
+}
+
+/* .......... login .......... */
+.login{
+    border:2px solid aqua !important;
+    padding: 20px;
+}
+
+/* <<<<<<<<<< singnup <<<<<<<<<< */
+.signup{
+    border:2px solid aqua !important;
+    padding: 20px;
+}
+
+/* ========== responsive ========== */
+@media (max-width: 480px){
+    .comment-box{
+        width: 100% !important;
+    }
+    .show-page{
+        width: 100% !important;
+    }
+}
