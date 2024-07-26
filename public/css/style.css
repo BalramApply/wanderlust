@@ -19,6 +19,9 @@ body{
 .fa-compass{
     font-size: 2rem;
 }
+.navbar-toggler-icon{
+    background-color: rgb(255, 0, 217);
+}
 
 /* :::::::::: comman_style :::::::::: */
 .search-input, .btn-search, .nav-link, .listing-card, .add-btn, .comment-box, .show-page, .show-btn, .com-btn, .del-btn, .edit-btn, .login-btn, .signup-btn{
@@ -190,10 +193,7 @@ input{
 
 /* ========== responsive ========== */
 @media (max-width: 480px){
-    .comment-box{
-        width: 100% !important;
-    }
-    .show-page{
+    .show-page, .edit, .comment-box{
         width: 100% !important;
     }
 }
