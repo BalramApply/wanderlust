@@ -75,10 +75,10 @@ Wanderlust is a full-stack MARN stack application designed to provide a platform
     Create a `.env` file in the root directory and add the following:
     ```env
     CLOUD_NAME=cloude_name
-CLOUD_API_KEY=cloud_api_key
-CLOUD_API_SECRET=cloud_api_secret
-ATLASDB_URL=atlas_db
-SECRET=secret
+    CLOUD_API_KEY=cloud_api_key
+    CLOUD_API_SECRET=cloud_api_secret
+    ATLASDB_URL=atlas_db
+    SECRET=secret
     ```
 
 4. **Run the application**
