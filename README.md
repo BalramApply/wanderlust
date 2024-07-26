@@ -40,18 +40,25 @@ Wanderlust is a full-stack MARN stack application designed to provide a platform
 
 ## 🔧 Technologies
 
+### Front-end
+- **HTML**: displayed in a web browser.
+- **CSS**: describing the presentation.
+- **Bootstrap**: A front-end framework.
 - **JavaScript**: frontend and backend development.
+- **EJS**: HTML markup with plain JavaScript.
+
+### Back-end
 - **Node.js**: server-side scripting.
 - **Express.js**: framework for Node.js
 - **MongoDB**: Database
-- **Cloudinary**: entire image management pipeline.
-- **EJS**: HTML markup with plain JavaScript.
-- **Joi**: data validator for JavaScript.
-- **Multer**: primarily used for uploading files.
 - **Passport**: authenticate requests.
-- **HTML**: displayed in a web browser.
-- **CSS**: describing the presentation
-- **Bootstrap**: A front-end framework
+- **MVC Freamwork**: used to structure the backend.
+
+### Hosting
+- **Cloudinary**: entire image management pipeline.
+- **Multer**: primarily used for uploading files.
+- **Atlas**: MongoDB Atlas is a fully-managed cloud database.
+- **Render**: Deploy Our Project
 
 ---
 
