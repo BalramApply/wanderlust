@@ -157,7 +157,7 @@ For any questions or suggestions, please reach out to:
 
 - **Name**: Balram
 - **Email**: balramapply123@gmail.com
-- **GitHub**: [yourusername](https://github.com/BalramApply)
+- **GitHub**: [BalramApply](https://github.com/BalramApply)
 
 ---
 
